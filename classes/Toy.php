@@ -1,12 +1,11 @@
 <?php 
 
-class Toy {
+class Toy extends Product{
     public $type;
 
-    function __construct (String $type){
-        parent::__construct(String $name, String $image, String $price, String $category);
-
-        $this->food = $type;
+    function __construct ($name,  $image,  $price,  $category,  $article, $type){
+        parent::__construct($name, $image, $price, $category, $article);
+        $this->type = $type;
     }
 
 }
