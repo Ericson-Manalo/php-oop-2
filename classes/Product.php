@@ -1,9 +1,9 @@
 <?php 
 
 class Product {
-    public $food;
-    public $toy;
-    public $kennel;
+    public $name;
+    public $image;
+    public $price;
     public $category;
 
     function __construct (String $food, String $toy, String $kennel, String $category){
