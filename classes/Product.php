@@ -6,10 +6,10 @@ class Product {
     public $price;
     public $category;
 
-    function __construct (String $food, String $toy, String $kennel, String $category){
-        $this->food = $food;
-        $this->toy = $toy;
-        $this->kennel = $kennel;
+    function __construct (String $name, String $image, String $price, String $category){
+        $this->name = $name;
+        $this->image = $image;
+        $this->price = $price;
         $this->category = $category;
     }
 
