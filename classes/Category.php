@@ -3,12 +3,11 @@
 <?php 
 
 class Category {
-    public $age;
+    public $type;
 
 
-    function __construct (String $name, Int $age){
-        $this->name = $name;
-        $this->age = $age;
+    function __construct (String $type){
+        $this->type = $type;
     }
 
 }
