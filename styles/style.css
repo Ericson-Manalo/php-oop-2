@@ -1,7 +1,17 @@
-h5{
-    color: red;
-}
-
 div.card{
     width: 300px;
+    background-color: #262626;
+    color: white;
+    text-align: center;
 }
+
+img{
+    width: 270px;
+}
+
+.card-img-top {
+    width: 270px;
+    margin: 0 auto;
+}
+
+

@@ -30,9 +30,15 @@
                     </div>
                     <img src="<?php echo $food->image ?>"  class="card-img-top rounded-0" alt="<?php echo $food->name; ?>">
                     <div class="card-body p-3">
+
                         <h5 class="card-title">
                             <?php echo $food->name; ?>
                         </h5>
+                        <h6 class="card-title">
+                        <?php echo $food->article; ?> - <em>
+                        <?php echo $food->meat; ?>
+                        </em>
+                        </h6>
                         <h6 class="card-title">
                             <?php echo $food->price; ?>€
                         </h6>
