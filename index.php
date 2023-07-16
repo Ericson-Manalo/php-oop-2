@@ -25,7 +25,7 @@
             </div>
             <?php foreach ($foods as $food) { ?>
                 <div class="card col-2 p-0 m-2" >
-                    <div class="card-header">
+                    <div class="card-header text-center">
                         <?php echo $food->name; ?>
                     </div>
                     <img src="<?php echo $food->image ?>"  class="card-img-top rounded-0" alt="<?php echo $food->name; ?>">
@@ -33,17 +33,18 @@
                         <h5 class="card-title">
                             <?php echo $food->name; ?>
                         </h5>
-                        <h5 class="card-title">
-                            <?php echo $food->price; ?>
-                        </h5>
-                    
+                        <h6 class="card-title">
+                            <?php echo $food->price; ?>€
+                        </h6>
                     </div>
                 </div>
             <?php } ?>
 
+
+
             <?php foreach ($toys as $toy) { ?>
                 <div class="card col-2 p-0 m-2" >
-                    <div class="card-header">
+                    <div class="card-header text-center">
                         <?php echo $toy->name; ?>
                     </div>
                     <img src="<?php echo $toy->image ?>"  class="card-img-top rounded-0" alt="<?php echo $food->name; ?>">
@@ -51,9 +52,27 @@
                         <h5 class="card-title">
                             <?php echo $toy->name; ?>
                         </h5>
+                        <h6 class="card-title">
+                            <?php echo $toy->price; ?>€
+                        </h6>
+                    
+                    </div>
+                </div>
+            <?php } ?>
+
+            <?php foreach ($couches as $couch) { ?>
+                <div class="card col-2 p-0 m-2" >
+                    <div class="card-header">
+                        <?php echo $couch->name; ?>
+                    </div>
+                    <img src="<?php echo $couch->image ?>"  class="card-img-top rounded-0" alt="<?php echo $food->name; ?>">
+                    <div class="card-body p-3">
                         <h5 class="card-title">
-                            <?php echo $toy->price; ?>
+                            <?php echo $couch->name; ?>
                         </h5>
+                        <h6 class="card-title">
+                            <?php echo $couch->price; ?>€
+                        </h6>
                     
                     </div>
                 </div>
