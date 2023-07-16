@@ -35,10 +35,13 @@
                             <?php echo $food->name; ?>
                         </h5>
                         <h6 class="card-title">
-                        <?php echo $food->article; ?> - <em>
-                        <?php echo $food->meat; ?>
-                        </em>
+                        <?php echo $food->article; ?> - <?php echo $food->kg; ?> Kg
                         </h6>
+                        <p>
+                            <em>
+                                <?php echo $food->meat; ?>
+                            </em>
+                        </p>
                         <h6 class="card-title">
                             <?php echo $food->price; ?>€
                         </h6>
@@ -76,6 +79,7 @@
                         <h5 class="card-title">
                             <?php echo $couch->name; ?>
                         </h5>
+
                         <h6 class="card-title">
                             <?php echo $couch->price; ?>€
                         </h6>
