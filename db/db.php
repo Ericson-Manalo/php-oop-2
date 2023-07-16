@@ -6,31 +6,31 @@ include_once __DIR__ . '/../classes/Toy.php';
 include_once __DIR__ . '/../classes/Couch.php';
 
 $foods = [
-    new Food('Monge', 'https://arcaplanet.vtexassets.com/arquivos/ids/270797-1800-1800/Monge-All-Breeds-Adult-Salmone-e-Riso-12Kg.jpg?v=1775744233&quality=1&width=1800&height=1800', 59.99, 'Food', 'Cibo', 'Salmon And Rice', 12),
+    new Food('Monge', 'https://arcaplanet.vtexassets.com/arquivos/ids/270797-1800-1800/Monge-All-Breeds-Adult-Salmone-e-Riso-12Kg.jpg?v=1775744233&quality=1&width=1800&height=1800', 59.99, 'Food', 'Crocchette', 'Salmon And Rice', 12),
 
 
-    new Food('Monge', 'https://arcaplanet.vtexassets.com/arquivos/ids/223958-200-200/monge-cane-light-salmone-e-riso.jpg?v=1775908829', 49.99, 'Food', 'Cibo', 'Light Salmon', 12),
+    new Food('Monge', 'https://arcaplanet.vtexassets.com/arquivos/ids/223958-200-200/monge-cane-light-salmone-e-riso.jpg?v=1775908829', 49.99, 'Food', 'Crocchette', 'Light Salmon', 12),
 
-    new Food('Virtus', 'https://arcaplanet.vtexassets.com/arquivos/ids/266476-200-200/virtus-dog-adult-wild-taste-pollo-400g.jpg?v=1775894391', 49.99, 'Food', 'Cibo', 'Duck', 12),
+    new Food('Virtus', 'https://arcaplanet.vtexassets.com/arquivos/ids/266476-200-200/virtus-dog-adult-wild-taste-pollo-400g.jpg?v=1775894391', 49.99, 'Food', 'Cibo umido', 'Duck', 12),
 
-    new Food('Virtus', 'https://arcaplanet.vtexassets.com/arquivos/ids/224338-200-200/virtus-rustic-cane-adult.jpg?v=1775904189', 21.90, 'Food', 'Cibo', 'Turkey Chicken', 4),
+    new Food('Virtus', 'https://arcaplanet.vtexassets.com/arquivos/ids/224338-200-200/virtus-rustic-cane-adult.jpg?v=1775904189', 21.90, 'Food', 'Crocchette', 'Turkey Chicken', 4),
 
-    new Food('Natural Trainer', 'https://arcaplanet.vtexassets.com/arquivos/ids/264311-200-200/8059149278711_AFF_TRA27_PLB53-Y-V1_NT_SENSITIVE_NO_GRAIN_AD_M_M_PORK_12_KG_3D_face.jpg?v=1775646442', 58.99, 'Food', 'Cibo', 'Pork', 12),
+    new Food('Natural Trainer', 'https://arcaplanet.vtexassets.com/arquivos/ids/264311-200-200/8059149278711_AFF_TRA27_PLB53-Y-V1_NT_SENSITIVE_NO_GRAIN_AD_M_M_PORK_12_KG_3D_face.jpg?v=1775646442', 58.99, 'Food', 'Crocchette', 'Pork', 12),
 
-    new Food('Cesar', 'https://arcaplanet.vtexassets.com/arquivos/ids/286846-200-200/VHN-GASTROINTESTINAL-LOW-FAT-DOG-LOAF-CAN-400GR-PACKSHOT-rc-psd-png-2000x1320-150-RGB.png_214084.jpg?v=1775912582', 0.99, 'Lamb', 'Cibo', 'Beef', 0.15),
+    new Food('Cesar', 'https://arcaplanet.vtexassets.com/arquivos/ids/286846-200-200/VHN-GASTROINTESTINAL-LOW-FAT-DOG-LOAF-CAN-400GR-PACKSHOT-rc-psd-png-2000x1320-150-RGB.png_214084.jpg?v=1775912582', 0.99, 'Lamb', 'Cibo umido', 'Beef', 0.15),
 
-    new Food('Natural Trainer Small & Toy', 'https://arcaplanet.vtexassets.com/arquivos/ids/253190-200-200/trainer-natural-small-800g.jpg?v=1775866606', 14.99, 'Food', 'Cibo', 'Raw Ham and Rice', 3),
+    new Food('Natural Trainer Small & Toy', 'https://arcaplanet.vtexassets.com/arquivos/ids/253190-200-200/trainer-natural-small-800g.jpg?v=1775866606', 14.99, 'Food', 'Crocchette', 'Raw Ham and Rice', 3),
 
     new Food('Natural Trainer Adult', 'https://arcaplanet.vtexassets.com/arquivos/ids/253183-200-200/trainer-medium-beef.jpg?v=1775897027', 14.99, 'Food', 'Cibo', 'Raw Ham and Rice', 3),
 
     //cats
-    new Food('Whiskas', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXL_5Ty2Zo9sqDScEfoOUV_6bIBp3keBBgXjL5M2SMCj5cnWKfcds8gs05_gx5G329cZE&usqp=CAU', 2.99, 'Food', 'Cibo', 'Salmon And Rice', 0.6),
+    new Food('Whiskas', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXL_5Ty2Zo9sqDScEfoOUV_6bIBp3keBBgXjL5M2SMCj5cnWKfcds8gs05_gx5G329cZE&usqp=CAU', 2.99, 'Food', 'Cibo umido', 'Salmon And Rice', 0.6),
 
-    new Food('Gourmet', 'https://arcaplanet.vtexassets.com/arquivos/ids/275290-200-200/gourmet-gold--gatto-mix-moussemultipack-48.jpg?v=1775908755', 1.99, 'Food', 'Cibo', 'Multipack Mousse Mix', 0.15),
+    new Food('Gourmet', 'https://arcaplanet.vtexassets.com/arquivos/ids/275290-200-200/gourmet-gold--gatto-mix-moussemultipack-48.jpg?v=1775908755', 1.99, 'Food', 'Cibo umido', 'Multipack Mousse Mix', 0.15),
 
-    new Food('Virtus', 'https://arcaplanet.vtexassets.com/arquivos/ids/272309-200-200/virtus-cat-nature-atlantic-formula-multipack.jpg?v=1775908680', 2.99, 'Food', 'Cibo', 'Cat Adult', 0.15),
+    new Food('Virtus', 'https://arcaplanet.vtexassets.com/arquivos/ids/272309-200-200/virtus-cat-nature-atlantic-formula-multipack.jpg?v=1775908680', 2.99, 'Food', 'Cibo umido', 'Cat Adult', 0.15),
 
-    new Food('Natural Trainer', 'https://arcaplanet.vtexassets.com/arquivos/ids/248329-200-200/trainer-natural-gatto-sterilized-salmone.jpg?v=1775907155', 2.70, 'Food', 'Cibo', 'Sterilised Salmon', 1)
+    new Food('Natural Trainer', 'https://arcaplanet.vtexassets.com/arquivos/ids/248329-200-200/trainer-natural-gatto-sterilized-salmone.jpg?v=1775907155', 2.70, 'Food', 'Crocchette', 'Sterilised Salmon', 1)
 
 ];
 
