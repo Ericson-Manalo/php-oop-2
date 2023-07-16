@@ -26,30 +26,57 @@ $foods = [
     //cats
     new Food('Whiskas', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXL_5Ty2Zo9sqDScEfoOUV_6bIBp3keBBgXjL5M2SMCj5cnWKfcds8gs05_gx5G329cZE&usqp=CAU', 2.99, 'Food', 'Cibo', 'Salmon And Rice', 0.6),
 
-    new Food('Whiskas', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXL_5Ty2Zo9sqDScEfoOUV_6bIBp3keBBgXjL5M2SMCj5cnWKfcds8gs05_gx5G329cZE&usqp=CAU', 2.99, 'Food', 'Cibo', 'Salmon And Rice', 0.6),
+    new Food('Gourmet', 'https://arcaplanet.vtexassets.com/arquivos/ids/275290-200-200/gourmet-gold--gatto-mix-moussemultipack-48.jpg?v=1775908755', 1.99, 'Food', 'Cibo', 'Multipack Mousse Mix', 0.15),
 
-    new Food('Whiskas', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXL_5Ty2Zo9sqDScEfoOUV_6bIBp3keBBgXjL5M2SMCj5cnWKfcds8gs05_gx5G329cZE&usqp=CAU', 2.99, 'Food', 'Cibo', 'Salmon And Rice', 0.6),
+    new Food('Virtus', 'https://arcaplanet.vtexassets.com/arquivos/ids/272309-200-200/virtus-cat-nature-atlantic-formula-multipack.jpg?v=1775908680', 2.99, 'Food', 'Cibo', 'Cat Adult', 0.15),
 
-    new Food('Whiskas', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXL_5Ty2Zo9sqDScEfoOUV_6bIBp3keBBgXjL5M2SMCj5cnWKfcds8gs05_gx5G329cZE&usqp=CAU', 2.99, 'Food', 'Cibo', 'Salmon And Rice', 0.6),
+    new Food('Natural Trainer', 'https://arcaplanet.vtexassets.com/arquivos/ids/248329-200-200/trainer-natural-gatto-sterilized-salmone.jpg?v=1775907155', 2.70, 'Food', 'Cibo', 'Sterilised Salmon', 1)
 
 ];
 
-var_dump($foods);
+var_dump ($foods);
+
 
 $toys = [
+
+    new Toy('Polipus', 'https://www.farmacosmo.it/166179-large_default/cuteseas-polipo-large-peluche-sonoro-cani-cm-32-112695.jpg', 4.49, 'Dog', 'Toy', 'Peluche'),
+
+    new Toy('Kong Extreme', 'https://arcaplanet.vtexassets.com/arquivos/ids/258247-200-200/kong-extreme1.jpg?v=1775866425', 9.90, 'Dog', 'Toy', 'Gomma'),
+
+    new Toy('Camon', 'https://arcaplanet.vtexassets.com/arquivos/ids/269822-200-200/yes-pallina-per-cane-basket.jpg?v=1775909426', 2.70, 'Dog', 'Toy', 'Ball'),
+
+    new Toy('Trixie', 'https://arcaplanet.vtexassets.com/arquivos/ids/223864-200-200/trixie-cane-gioco-corda.jpg?v=1775866594', 4.13, 'Dog', 'Toy', 'Corda'),
+
     new Toy('Bird Piume', 'https://www.zoofood.it/wp-content/uploads/2021/02/16102_2.png', 4.49, 'Cat', 'Toy', 'Bacchetta'),
-    new Toy('Polipus', 'https://www.farmacosmo.it/166179-large_default/cuteseas-polipo-large-peluche-sonoro-cani-cm-32-112695.jpg', 4.49, 'Dog', 'Toy', 'Peluche')
+
+    new Toy('Tiragraffi Livia', 'https://arcaplanet.vtexassets.com/arquivos/ids/265339-200-200/trixie-tiragraffi-livia-rosa-antico-64cm.jpg?v=1775866826', 22.90, 'Cat', 'Toy', 'Tiragraffi'),
+
+    new Toy('Pesce Guizzante', 'https://arcaplanet.vtexassets.com/arquivos/ids/264784-200-200/trixie-pesce-guizzante-gioco-gatto.jpg?v=1775904847', 8.20, 'Cat', 'Toy', 'Peluche'),
 ];
 
-var_dump($toys);
+
 
 
 $couches = [
     new Couch('Bedsure', 'https://storepupy.com/cdn/shop/products/DSC_0005_620x.jpg?v=1659818764', 30, 'Dog', 'Couch', 'Cotton'),
-    new Couch('Cuccia Royal Blu', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv_vE4xSz9Cqq23NJ18zHU6XLqyrOBNBpLSeBBr6-yywWBjVLWc0z_dvWzcN6w8ZkJikE&usqp=CAU', 19.99, 'Cat', 'Couch', 'Cotton')
+
+    new Couch('Brandina Mast', 'https://arcaplanet.vtexassets.com/arquivos/ids/225719-200-200/mast-brandina-alluminio-60-blu.jpg?v=1775911738', 23.99, 'Dog', 'Couch', 'Tessuto'),
+
+    new Couch('Cuscino Nautica', 'https://arcaplanet.vtexassets.com/arquivos/ids/264194-200-200/croci-cuscino-nautica.jpg?v=1775896512', 15.99, 'Dog', 'Couch', 'Cotton'),
+
+    new Couch('Cuccia Domus', 'https://arcaplanet.vtexassets.com/arquivos/ids/227348-200-200/canile-domus-extra-large.jpg?v=1774174126', 279, 'Dog', 'Couch', 'Plastic'),
+
+
+
+
+    new Couch('Cuccia Royal Blu', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv_vE4xSz9Cqq23NJ18zHU6XLqyrOBNBpLSeBBr6-yywWBjVLWc0z_dvWzcN6w8ZkJikE&usqp=CAU', 19.99, 'Cat', 'Couch', 'Cotton'),
+
+    new Couch('Cuccia Ciambella Pelosa', 'https://arcaplanet.vtexassets.com/arquivos/ids/277241-200-200/luna-e-teo-cuccia-pelosa-color-blu.jpg?v=1775520837', 24.99, 'Cat', 'Couch', 'Cotton'),
+
+    new Couch('Cuccia Igloo Mimì', 'https://arcaplanet.vtexassets.com/arquivos/ids/272899-200-200/trixie-cuccia-per-gatto-grotta.jpg?v=1775780094', 29.99, 'Cat', 'Couch', 'Cotton')
 ];
 
-var_dump($couches);
+
 
 
 
