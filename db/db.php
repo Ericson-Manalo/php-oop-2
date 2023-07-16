@@ -41,9 +41,9 @@ $toys = [
 
     new Toy('Polipus', 'https://www.farmacosmo.it/166179-large_default/cuteseas-polipo-large-peluche-sonoro-cani-cm-32-112695.jpg', 4.49, 'Dog', 'Toy', 'Peluche'),
 
-    new Toy('Kong Extreme', 'https://arcaplanet.vtexassets.com/arquivos/ids/258247-200-200/kong-extreme1.jpg?v=1775866425', 9.90, 'Dog', 'Toy', 'Gomma'),
+    new Toy('Kong Extreme', 'https://arcaplanet.vtexassets.com/arquivos/ids/258247-200-200/kong-extreme1.jpg?v=1775866425', 9.99, 'Dog', 'Toy', 'Gomma'),
 
-    new Toy('Camon', 'https://arcaplanet.vtexassets.com/arquivos/ids/269822-200-200/yes-pallina-per-cane-basket.jpg?v=1775909426', 2.70, 'Dog', 'Toy', 'Ball'),
+    new Toy('Camon', 'https://arcaplanet.vtexassets.com/arquivos/ids/269822-200-200/yes-pallina-per-cane-basket.jpg?v=1775909426', 2.74, 'Dog', 'Toy', 'Ball'),
 
     new Toy('Trixie', 'https://arcaplanet.vtexassets.com/arquivos/ids/223864-200-200/trixie-cane-gioco-corda.jpg?v=1775866594', 4.13, 'Dog', 'Toy', 'Corda'),
 
@@ -58,13 +58,13 @@ $toys = [
 
 
 $couches = [
-    new Couch('Bedsure', 'https://storepupy.com/cdn/shop/products/DSC_0005_620x.jpg?v=1659818764', 30, 'Dog', 'Couch', 'Cotton'),
+    new Couch('Bedsure', 'https://storepupy.com/cdn/shop/products/DSC_0005_620x.jpg?v=1659818764', 30.00, 'Dog', 'Couch', 'Cotton'),
 
     new Couch('Brandina Mast', 'https://arcaplanet.vtexassets.com/arquivos/ids/225719-200-200/mast-brandina-alluminio-60-blu.jpg?v=1775911738', 23.99, 'Dog', 'Couch', 'Tessuto'),
 
     new Couch('Cuscino Nautica', 'https://arcaplanet.vtexassets.com/arquivos/ids/264194-200-200/croci-cuscino-nautica.jpg?v=1775896512', 15.99, 'Dog', 'Couch', 'Cotton'),
 
-    new Couch('Cuccia Domus', 'https://arcaplanet.vtexassets.com/arquivos/ids/227348-200-200/canile-domus-extra-large.jpg?v=1774174126', 279, 'Dog', 'Couch', 'Plastic'),
+    new Couch('Cuccia Domus', 'https://arcaplanet.vtexassets.com/arquivos/ids/227348-200-200/canile-domus-extra-large.jpg?v=1774174126', 279.00, 'Dog', 'Couch', 'Plastic'),
 
 
 
